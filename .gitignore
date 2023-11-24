@@ -2,5 +2,6 @@
 /.vscode/
 /.idea/
 /__pycache__/
+/Assets/
 /Fonts/
 /prep_fonts_names.py
