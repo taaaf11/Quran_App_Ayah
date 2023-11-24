@@ -6,10 +6,12 @@ import flet as ft
 def main(page):
     page.title = 'Quran Ayah by Ayah'
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
+    page.bgcolor = '#ff272f33'
     page.fonts = font_names
     
     # input field
     surah_aya_field = ft.TextField(hint_text='Surah:Ayah', label='Index')
+    surah_aya_field.border_color = '#ff2ca4ab'
     
     # Quran text
     quran_text = ft.Text('', size=40)
@@ -32,6 +34,7 @@ def main(page):
         
     # submit button
     submit_button = ft.IconButton(ft.icons.CHECK, on_click=get_text)
+    submit_button.icon_color = '#ff2ca4ab'
     
     page.add(
         ft.Column([
