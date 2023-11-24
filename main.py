@@ -1,28 +1,36 @@
 from aya_dict import surah_aya
+from fonts_names import font_names
 import flet as ft
 
 
 def main(page):
     page.title = 'Quran Ayah by Ayah'
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
-    page.fonts = {}
+    page.fonts = font_names
     
-    quran_text = ft.Text('a', size=10)
+    # input field
     surah_aya_field = ft.TextField(hint_text='Surah:Ayah', label='Index')
+    
+    # Quran text
+    quran_text = ft.Text('', size=40)
     
     def get_text(e):
         index = surah_aya_field.value
         data = surah_aya[index]
+        
         # get arabic text
         text = data[0]
+        
         # get font name
         font = data[1]
-        # set to field
-        quran_text.font_family = f"Fonts\\{font}.ttf"
+        
+        # display quran
+        quran_text.font_family = f"{font}"
         quran_text.value = text
+        
         page.update()
         
-    
+    # submit button
     submit_button = ft.IconButton(ft.icons.CHECK, on_click=get_text)
     
     page.add(
