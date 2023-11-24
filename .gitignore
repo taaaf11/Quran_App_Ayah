@@ -1,3 +1,6 @@
 /venv/
 /.vscode/
 /.idea/
+/__pycache__/
+/Fonts/
+/prep_fonts_names.py
