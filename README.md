@@ -3,7 +3,8 @@ Read Ayats, in Saudi Quran Complex v1 font.
 <br>
 <br>
 <br>
-![Screenshot (83)](https://github.com/taaaf11/Quran_App_Ayah/assets/109919009/9b32dd82-a740-47d4-b519-29877674bf47)
+
+![Screenshot (88)](https://github.com/taaaf11/Quran_App_Ayah/assets/109919009/91ade005-4a62-45ee-8b4b-b1191b966659)
 
 
 ## Run
