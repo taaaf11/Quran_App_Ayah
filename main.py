@@ -14,7 +14,7 @@ import flet as ft
 
 
 def main(page):
-    github_repo_url = 'https://github.com/taaaf11/Quran_Ayah_App'
+    github_repo_url = 'https://github.com/taaaf11/Quran_App_Ayah'
     def change_tab(e):
         current_tab = e.control.selected_index
         tab_home.visible = True if current_tab == 0 else False
