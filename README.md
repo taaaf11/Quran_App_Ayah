@@ -13,4 +13,5 @@ Read Ayats, in Saudi Quran Complex v1 font.
 6. Creating virtual environment: `python -m venv .env`
 7. Activate virtual environment: `.env\Scripts\activate.ps1`
 8. Installing required packages: `pip install -r requirements.txt`
-9. Deactivate the virtual environment: `.env\bin\deactivate.ps1` 
+9. Running the app: `python main.py`
+10. Deactivate the virtual environment: `.env\bin\deactivate.ps1` 
