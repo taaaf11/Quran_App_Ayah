@@ -8,6 +8,7 @@ Read Ayats, in Saudi Quran Complex v1 font.
 
 ## Run
 ### Windows
+-> First, extract the Fonts1.zip, Fonts2.zip, Fonts3.zip and Fonts4.zip
 1. Navigate to the directory of cloned or downloaded repository
 3. Open powershell in that directory
 6. Creating virtual environment: `python -m venv .env`
