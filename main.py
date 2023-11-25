@@ -21,7 +21,7 @@ def main(page):
         tab_about.visible = True if current_tab == 1 else False
         page.update()
         
-    page.title = 'Quran Ayah by Ayah'
+    page.title = 'Quran Single Ayah'
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.bgcolor = '#ff272f33'
